@@ -28,14 +28,20 @@ console.log(pokemon?.types[0].type.name);
           <span>Height: {pokemon?.height} '</span>
         </div>
         <div>
-            <article className={'pokeinfo__typecontainer'}>Types: 
-              <span className={`pokeinfo__types ${pokemon?.types[0].type.name}`}>
-                {pokemon?.types[0].type.name}
-              </span>
-              <span className={`pokeinfo__types ${pokemon?.types[1].type.name}`}>
-                {pokemon?.types[1].type.name}
-              </span>
-            </article>
+        <article className={'pokeinfo__typecontainer'}>
+  {pokemon?.types.length > 0 && (
+    <>
+      <span className={`pokeinfo__types ${pokemon?.types[0].type.name}`}>
+        {pokemon?.types[0].type.name}
+      </span>
+      {pokemon?.types.length > 1 && (
+        <span className={`pokeinfo__types ${pokemon?.types[1].type.name}`}>
+          {pokemon?.types[1].type.name}
+        </span>
+      )}
+    </>
+  )}
+</article>
         </div>
       </div>
       <ul className='pokeinfo__stats'>
