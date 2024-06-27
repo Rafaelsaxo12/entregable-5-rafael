@@ -1,0 +1,7 @@
+.pokeselect {
+    border: none;
+    height: 30px;
+    width: 200px;
+    color: gray;
+    box-shadow: 4px 2px 9px 1px;
+}

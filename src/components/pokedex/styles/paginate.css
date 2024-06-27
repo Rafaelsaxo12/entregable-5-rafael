@@ -1,0 +1,16 @@
+.paginate__prev  {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    background-color: dodgerblue;
+    font-size: 1rem;
+    padding: 8px;
+}
+.paginate__plus  {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    background-color: dodgerblue;
+    font-size: 1rem;
+    padding: 8px;
+}

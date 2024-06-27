@@ -1,0 +1,126 @@
+.pokecard {
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    width: 250px;
+    border: 5px solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pokecard__back {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
+.pokecard__img {
+    width: 65%;
+    position: absolute;
+}
+.pokecard__name {
+    font-family: "Open Sans", sans-serif;
+    font-size: 2rem;
+    color: rgb(0, 132, 255);
+    padding-top: 50px;
+}
+.pokecard__types {
+    margin: 5px 0;
+    display: flex;
+}
+.pokecard__span {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    color: rgba(34, 33, 33, 0.466);
+}
+.pokecard__hr {
+    width: 90%;
+    margin: 10px 0;
+}
+.pokecard__stats {
+    padding-bottom: 10px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 10px;
+}
+.pokecard__stats li {
+    display: flex;
+    flex-direction: column;
+}
+.slot2::before {
+    content: '/';
+    margin: 0 5px;
+}
+.stat {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    color: rgba(34, 33, 33, 0.466);
+}
+.stat__name {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    color: rgb(0, 132, 255);
+}
+/* ------ Colors ----- */
+.grass {
+    background-color: green;
+}
+.fire {
+    background-color: red;
+}
+.water {
+    background-color: dodgerblue;
+}
+.normal {
+    background-color: rgb(148, 145, 145);
+}
+.bug {
+    background-color: chartreuse;
+}
+.poison {
+    background-color: purple;
+}
+.dragon {
+    background-color: darkorchid;
+}
+.ghost {
+    background-color: rebeccapurple;
+}
+.dark {
+    background-color: saddlebrown;
+}
+.electric {
+    background-color: yellow;
+}
+.ice {
+    background-color: cadetblue;
+}
+.fighting {
+    background-color: brown;
+}
+.ground {
+    background-color: darkgoldenrod;
+}
+.flying {
+    background-color: lightslategrey;
+}
+.psychic {
+    background-color: deeppink;
+}
+.rock {
+    background-color: peru;
+}
+.steel {
+    background-color: darkgray;
+}
+.fairy {
+    background-color: palevioletred;
+}
+.pokecard__types li {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.774);
+}
